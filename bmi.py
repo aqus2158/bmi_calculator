@@ -3,7 +3,7 @@ height = input('請輸入身高(公尺):')
 height = float(height)
 weight = input('請輸入體重(公斤):')
 weight = float(weight)
-bmi = (weight/height**2)
+bmi = (weight / height ** 2)
 print('您的BMI為', bmi)
 if bmi < 18.5:
 	print('體重過輕')
